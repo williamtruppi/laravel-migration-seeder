@@ -19,11 +19,7 @@
                 height: 100vh;
                 margin: 0;
             }
-
-            .full-height {
-                height: 100vh;
-            }
-
+            
             .flex-center {
                 display: flex;
                 justify-content: center;

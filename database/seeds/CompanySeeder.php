@@ -17,8 +17,8 @@ class CompanySeeder extends Seeder
             $newComp = new Company();
             $newComp->name = $faker->company();
             $newComp->description = $faker->catchPhrase();
-            $newComp->name = $faker->address();
-            $newComp->name = $faker->country();
+            $newComp->address = $faker->address();
+            $newComp->country = $faker->country();
             $newComp->save();
         }
     }

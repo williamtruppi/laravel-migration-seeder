@@ -7,8 +7,9 @@
                 <div class="links">
                     <a href="{{route('home')}}">Home</a>
                     <a href="{{route('employees.index')}}">Employee</a>
-                    <a href="{{route('about')}}">About</a>
-                    
+                    <a href="{{route('departments.index')}}">Departments</a>
+                    <a href="{{route('companies.index')}}">Companies</a>
+                    <a href="{{route('about')}}">About</a>   
                 </div>
             </div>
         </div>
